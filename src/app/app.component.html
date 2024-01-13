@@ -1,3 +1,26 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>COMUNICACION</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+
+<ion-content>
+  <app-user-card userName="Mateo " profileImage="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" additionalInfo="Información adicional 1"></app-user-card>
+  <app-user-card userName="Estefania" profileImage="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" additionalInfo="Información adicional 2"></app-user-card>
+  <ion-list>
+    <app-color-list *ngFor="let color of colores" [color]="color"></app-color-list>
+  </ion-list>
+</ion-content>
+
+<ion-content>
+  <ion-list>
+    <app-color-list *ngFor="let color of colores" [color]="color"></app-color-list>
+  </ion-list>
+</ion-content>
+
