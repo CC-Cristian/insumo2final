@@ -1,0 +1,7 @@
+{
+  "name": "insumo2final",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
